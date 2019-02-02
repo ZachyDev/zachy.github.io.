@@ -1,0 +1,136 @@
+ul{
+	list-style-type: none;
+	overflow: hidden;
+	padding: 0;
+	background-color: green;
+	font-weight: 900;
+	
+}
+li{
+	float:left;
+}
+li a{
+	text-decoration: none;
+	text-align: center;
+	font-family: sans-serif;
+	color:white;
+	display:inline-block;
+	padding: 30px;
+}
+h1{
+	text-shadow: 2px 2px 5px white;
+	font-family: sans-serif;
+	font-weight: 900;
+	font-style: bold;
+	text-align: center;
+	font-size: 40px;
+	padding: 5px;
+	
+}
+.head1{
+	background-color: orange;
+
+}
+.active{
+	background-color:black;
+
+}
+.left{
+	float: right;
+}
+li:hover{
+	background-color:black;
+}
+body{
+	background-color:blue;
+}
+@keyframes example{
+	from{background-color:orange;}
+	to{background-color:red;}
+}
+.box-1{
+	background-color:orange;
+	color: black;
+	font-weight:900;
+	font-family:arial,herveticta,sans-serif,serif,verdana;
+	max-width:900px;
+	margin:auto;
+	animation-name: example;
+	animation-duration: 16s;
+	animation-iteration-count: infinite;
+	display:inline-block;
+	box-sizing: border-box;
+	border:2px solid black;
+	border-radius: 1.2em;
+	height:180px;
+
+
+}
+
+a:link{
+    color: red;
+}
+a:visited{
+	color:cyan;
+}
+a:hover{
+	color: hotpink;
+}
+a:active{
+	color: navy;
+
+}
+img{
+	float: right;
+	overflow: none;
+	 opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+.box-2{
+	background-color:rgb(100,200,100);
+	font-family: arial;
+	text-decoration: none;
+	color:navy;
+	width:100%;
+}
+
+.box-3{
+	text-shadow: 2px 2px 5px solid red;
+	text-decoration: none;
+	font-family:arial;
+	background-color:maroon;
+	max-width:100%;
+	border-radius: 1.2em;
+	height: 230px;
+
+}
+.box-3:hover{
+	background-color:green;
+}
+.list{
+	color:white;
+	font-weight:900;
+	list-style-type: disc;
+}
+.newsletter{
+	color:white; 
+	text-shadow: 5px;
+	font-style: italic;
+	font-family: verdana;
+}
+.form{
+	font-weight: 900;
+	color: white;
+	font-family:arial;
+
+}
+.button{
+	background-color:green;
+	padding: 4px 22px;
+	text-align: center;
+	display: inline-block;
+	font-style: 16px;
+	text-decoration: none;
+	color: white;
+	border-radius: 4px;
+}
